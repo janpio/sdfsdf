@@ -1,5 +1,5 @@
 name: npm - manage dist tag
-run-name: npm - manage dist tag: ${{ github.event.inputs.tagAction}} ${{ github.event.inputs.tagName}} (on ${{ github.event.inputs.targetVersion}})
+run-name: npm dist-tag / ${{ github.event.inputs.tagAction }} ${{ github.event.inputs.tagName }} (on ${{ github.event.inputs.targetVersion }})"
 
 on:
   workflow_dispatch:
